@@ -128,3 +128,19 @@ button:hover{
     font-size: 20px;
     font-weight: 700;
  }
+ /* This is service section  */
+ #service-div{
+    margin: 50px 30px;
+    background-color: rgba(39, 39, 39, 0.05);
+    padding-top: 70px;
+ }
+ .serivce-img{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+ }
+ .service-text{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 70px;
+ }
