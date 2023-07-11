@@ -168,6 +168,18 @@ button:hover{
  .sell-para{
     text-align: center;
  }
- .sell-btn{
-
+ /* This is instagram section  */
+ .insta-text{
+    text-align: center;
+ }
+ .insta-para{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    padding-bottom: 50px;
+ }
+ .insta-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 100px;
  }
