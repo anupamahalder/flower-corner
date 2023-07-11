@@ -16,13 +16,14 @@ header{
     background-color: rgba(229, 84, 115, 0.1);
     min-width: 500px;
     height: 90vh;
-    padding-bottom: 0;
+    padding-bottom: 0px;
+    gap: 25px;
 }
 .head-text{
     padding:20px 30px;
     width: 100%;
 }
-.head-text>h1{
+.heading{
     color: #272727;
     font-size: 60px;
     font-weight: 800;
@@ -38,17 +39,17 @@ header{
     padding-bottom: 20px;
 }
 .head-img{
-    width: 80%;
-    object-position: right bottom;
+    margin: 0;
+    position: bottom right;
     margin-bottom: 0;
-    padding-bottom: 0;
+    margin-left: 30px;
 }
 button{
     margin-top: 30px;
     border-radius: 5px;
     background: #E55473;
     color: rgba(255, 255, 255, 1);    
-    padding: 20px 35px;
+    padding: 16px 35px;
     font-weight: 800;
     border: 0;
     font-size: large;
@@ -56,3 +57,19 @@ button{
 button:hover{
     background-color: #b92d4b;
 }
+ /* featured section starts here  */
+ #feature{
+    padding-top: 150px;
+    text-align: center;
+ }
+ .feature-heading{
+    font-size: 40px;
+    font-weight: 900;
+    color: rgba(39, 39, 39, 1);
+    margin-bottom: 15px;
+ }
+ .feature-text{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 17px;
+    margin-bottom: 50px;
+ }
