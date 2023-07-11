@@ -11,7 +11,7 @@ header{
     padding-left: 50px;
     padding-right: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     background-color: rgba(229, 84, 115, 0.1);
     min-width: 500px;
@@ -130,7 +130,7 @@ button:hover{
  }
  /* This is service section  */
  #service-div{
-    margin: 50px 30px;
+    margin: 80px 50px;
     background-color: rgba(39, 39, 39, 0.05);
     padding-top: 70px;
  }
@@ -143,4 +143,31 @@ button:hover{
     display: flex;
     justify-content: space-around;
     padding-bottom: 70px;
+    color: rgba(39, 39, 39, 0.8);
+    font-size: 18px;
+    font-weight: 600;
+ }
+ /* This is sell div style  */
+ #sell-div{
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+ }
+ .sell-text{
+    padding-top: 50px;
+    padding-bottom: 50px;
+ }
+ .sell-heading{
+    font-size: 35px;
+    font-weight: 800;
+    padding-bottom: 20px;
+ }
+ .sell-para{
+    text-align: center;
+ }
+ .sell-btn{
+
  }
